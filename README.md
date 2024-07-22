@@ -15,20 +15,16 @@ For more details on the algorithm, refer to the original paper: https://ieeexplo
 The LSGA-Sudoku-Solver is designed to solve Sudoku puzzles using a novel evolutionary algorithm that incorporates column and sub-block local search techniques. This approach enhances the convergence speed and accuracy of finding the optimal solution. For more details on the algorithm, refer to the [original paper](https://ieeexplore.ieee.org/document/10015696).
 
 ## Project Structure
-LSGA-Sudoku-Solver/
-│
-├── additional_studies/ # Jupyter Notebook for additional studies
-├── additional_studies_output/ # Output of additional studies
-├── demo/ # Directory for demo purposes
-├── output/ # Directory to store general output files
-├── paper_six_puzzle_experiment_output/ # Output of paper's six puzzle experiment
-├── puzzles/ # Directory containing Sudoku puzzles
-│ └── experiment_1.json # Sample Sudoku puzzles for testing
-├── additional_studies.ipynb # Jupyter Notebook for additional studies
-├── LSGA_main.ipynb # Main Jupyter Notebook for running LSGA
-├── README.md # This README file
-├── requirements.txt # List of required Python packages
-└── run_experiment.py # Script to run experiments
+LSGA-Sudoku-Solver
+additional_studies_output/ # Output of additional studies
+demo/ # Directory for demo purposes
+output/ # Directory to store general output files
+paper_six_puzzle_experiment_output/ # Output of paper's six puzzle experiment
+puzzles/ # Directory containing Sudoku puzzles
+additional_studies.ipynb # Jupyter Notebook for additional studies
+LSGA_main.ipynb # Main Jupyter Notebook for running LSGA
+README.md # This README file
+requirements.txt # List of required Python packages
 
 
 ## Requirements
